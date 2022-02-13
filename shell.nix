@@ -13,4 +13,14 @@
     python39Packages.twine
     python39Packages.virtualenv
   ]);
+  profile = ''
+    virtualenv venv
+    source venv/bin/activate
+    cat << EOF
+
+    Publish to pypi:
+    $ python setup.py sdist bdist_wheel
+    $ twine upload dist/*
+    EOF
+  '';
 }).env

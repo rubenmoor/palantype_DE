@@ -78,8 +78,6 @@ Test the plugin locally
 Publish new version
 
     $ nix-shell
-    $ virtualenv venv
-    $ source venv/bin/activate
     $ python setup.py sdist bdist_wheel
     $ twine upload dist/*
 
