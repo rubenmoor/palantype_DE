@@ -8,7 +8,7 @@ Each finger operates three keys: Home row, top and bottom.
 The thumbs are exceptions, they operate four keys.
 There is no simultaneous pressing of multiple keys with one finger.
 
-![The Palantype DE keyboard layout](https://raw.githubusercontent.com/rubenmoor/plover_palantype_german/palantype_de/keyboard_layout.bmp)
+![The Palantype DE keyboard layout](https://raw.githubusercontent.com/rubenmoor/plover_palantype_german/palantype_de/keyboard_layout.png)
 
 Like the original Palantype, this adaption is compatible with
 Qwerty-keyboards as long as they support N-key roll-over (NKRO).
@@ -53,8 +53,7 @@ an on-line text editor for steno typing.
 Current state
 =====================
 
-The dictionary contains over 100'000 words of the German language.
-For productive use, a list of over 2'000'000 words has to be included (currently in progress).
+The dictionary contains almost 2,000,000 words of the German language.
 
 Apart from `ILKSn` to delete the last input, there are no command keys implemented.
 
@@ -67,6 +66,15 @@ Missing features
 * paragraph (return key)
 * hyphenation of arbitrary words
 * ...
+
+Development
+=====================
+
+    $ nix-shell
+    $ virtualenv venv
+    $ source venv/bin/activate
+    $ python setup.py sdist bdist_wheel
+    $ twine upload dist/*
 
 Acknowledgments
 ======================

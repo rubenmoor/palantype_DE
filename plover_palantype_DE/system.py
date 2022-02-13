@@ -6,7 +6,7 @@ KEYS = (
     'S-', 'B-', 'G-', 'H-', 'D-', 'F-', 'M-', 'J-', 'W-', 'L-', 'N-', 'R-',
     'Ä-', 'E-', 'A-', '~-',
     '-U', '-I', '-O', '-Ü',
-    '-+', '-L', '-M', '-N', '-K', '-B', '-F', '-S', '-ʃ', '-s', '-D', '-n'
+    '-+', '-L', '-M', '-N', '-G', '-B', '-F', '-S', '-ʃ', '-s', '-D', '-n'
 )
 
 IMPLICIT_HYPHEN_KEYS = ('R-', 'Ä-', 'E-', 'A-', '~-', '-U', '-I', '-O', '-Ü', '-+')
@@ -52,7 +52,7 @@ KEYMAPS = {
         '-L': 'u',
         '-M': 'j',
         '-N': '8',
-        '-K': 'i',
+        '-G': 'i',
         '-B': 'k',
         '-F': '9',
         '-S': 'o',
@@ -65,4 +65,4 @@ KEYMAPS = {
 }
 
 DICTIONARIES_ROOT = 'asset:plover_palantype_DE:dictionaries'
-DEFAULT_DICTIONARIES = ( 'palantype_de.json',)
+DEFAULT_DICTIONARIES = ( 'palantype-DE.json',)
