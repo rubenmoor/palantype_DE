@@ -55,7 +55,7 @@ Current state
 
 The dictionary contains almost 2,000,000 words of the German language.
 
-Apart from `ILKSn` to delete the last input, there are no command keys implemented.
+Apart from `ILNSD` to delete the last input, there are no command keys implemented.
 
 Missing features
 ---------------------
@@ -69,6 +69,13 @@ Missing features
 
 Development
 =====================
+
+Test the plugin locally
+
+    $ plover -s plover_plugins install -e .
+    $ plover
+
+Publish new version
 
     $ nix-shell
     $ virtualenv venv
