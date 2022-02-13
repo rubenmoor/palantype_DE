@@ -8,7 +8,7 @@ Each finger operates three keys: Home row, top and bottom.
 The thumbs are exceptions, they operate four keys.
 There is no simultaneous pressing of multiple keys with one finger.
 
-![The Palantype DE keyboard layout](https://raw.githubusercontent.com/rubenmoor/plover_palantype_german/palantype_de/keyboard_layout.png)
+![The Palantype DE keyboard layout](https://raw.githubusercontent.com/rubenmoor/palantype_DE/main/keyboard_layout.png)
 
 Like the original Palantype, this adaption is compatible with
 Qwerty-keyboards as long as they support N-key roll-over (NKRO).
