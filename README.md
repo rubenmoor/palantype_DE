@@ -54,21 +54,38 @@ Current state
 =====================
 
 The dictionary contains almost 2,000,000 words of the German language.
+There are built-in already some essential features for real-life steno typing:
 
-Apart from `ILNSD` to delete the last input, there are no command keys implemented.
-
-Missing features
----------------------
-
+* fingerspelling
+* command keys (e.g. arrow keys, home, end, ...)
 * numbers
-* arrow keys for navigation
-* implement capitalize last word
-* paragraph (return key)
-* hyphenation of arbitrary words
-* ...
+* special keys
+* plover commands (e.g. retroactively capitalize)
+
+These features are implemented in the dictionary files
+
+* palantype-DE-extra.json, and
+* palantype-DE-numbers.json.
+
 
 Development
 =====================
+
+Source code
+-------------------------
+
+You can find all relevant code on Github:
+
+* The plover plugin [Plover_Palantype_DE](https://github.com/rubenmoor/plover_palantype_de)
+* The palantype Haskell library [mypalantype](https://github.com/rubenmoor/my-palantype)
+* [Palantype tools](https://github.com/rubenmoor/palantype-tools), to create your own palantype-style steno system
+* The code of the project home page with all the tutorials [Palantype.com codebase](https://github.com/rubenmoor/learn-palantype)
+
+You can get an overview of what I am working on, on the [Kanban board of the project](https://github.com/users/rubenmoor/projects/2).
+Feel free to post issues on any of those repositories with questions and/or feedback.
+
+Getting your hands dirty
+--------------------------
 
 Test the plugin locally
 
