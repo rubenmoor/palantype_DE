@@ -6,7 +6,7 @@ KEYS = (
     'v-', 'D-', 'b-', 'ʃ-', 'S-', 'F-', 'G-', 'N-', 'B-', 'M-', '+-', 'L-',
     'Ä-', 'E-', 'A-', '~-',
     '-U', '-I', '-O', '-Ü',
-    '-M', '-+', '-L', '-G', '-N', '-B', '-ʃ', '-S', '-F', '-s', '-D', '-n'
+    '-M', '-+', '-L', '-G', '-N', '-B', '-ʃ', '-S', '-F', '-n', '-D', '-s'
 )
 
 IMPLICIT_HYPHEN_KEYS = ('Ä-', 'E-', 'A-', '~-', '-U', '-I', '-O', '-Ü')
@@ -18,7 +18,7 @@ NUMBER_KEY = None
 NUMBERS = {}
 
 # Type: str or None
-UNDO_STROKE_STENO = 'ILNSD'
+UNDO_STROKE_STENO = 'I+NSD'
 
 ORTHOGRAPHY_RULES = []
 
@@ -57,9 +57,9 @@ KEYMAPS = {
         '-ʃ': '9',
         '-S': 'o',
         '-F': 'l',
-        '-s': 'p',
+        '-n': 'p',
         '-D': ';',
-        '-n': '/',
+        '-s': '/',
         'arpeggiate': 'space',
     },
 }
