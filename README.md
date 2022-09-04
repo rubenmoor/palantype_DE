@@ -76,7 +76,7 @@ Source code
 
 You can find all relevant code on Github:
 
-* The plover plugin [Plover_Palantype_DE](https://github.com/rubenmoor/plover_palantype_de)
+* The plover plugin [plover-palantype-DE](https://github.com/rubenmoor/palantype_DE)
 * The palantype Haskell library [mypalantype](https://github.com/rubenmoor/my-palantype)
 * [Palantype tools](https://github.com/rubenmoor/palantype-tools), to create your own palantype-style steno system
 * The code of the project home page with all the tutorials [Palantype.com codebase](https://github.com/rubenmoor/learn-palantype)
