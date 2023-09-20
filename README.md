@@ -95,8 +95,8 @@ Test the plugin locally
 Publish new version
 
     $ nix-shell
-    $ python setup.py sdist bdist_wheel
-    $ twine upload dist/*
+    
+Follow the instructions inside the nix shell.
 
 Acknowledgments
 ======================
