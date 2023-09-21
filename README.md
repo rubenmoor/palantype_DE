@@ -12,8 +12,15 @@ There is no simultaneous pressing of multiple keys with one finger.
 
 Like the original Palantype, this adaption is compatible with
 Qwerty-keyboards as long as they support N-key roll-over (NKRO).
-The optimal experience is to be expected with an Ergodox keyboard
-or similar, i.e. a keyboard that allows full use of the thumbs.
+The optimal experience is to be expected with a keyboard that allows full use of the thumbs.
+`Palantype DE` relies on four thumb keys.
+Here are examples for such a keyboard:
+
+* [Keyboardio Model 100](https://shop.keyboard.io/products/model-100)
+* [Keyboardio Atreus](https://shop.keyboard.io/collections/keyboardio-atreus/products/keyboardio-atreus)
+* [ZSA Moonlander Mark I](https://www.zsa.io/moonlander/)
+* [Ergodox EZ](https://ergodox-ez.com/)
+* [YAEMK](https://karlk90.github.io/yaemk-split-kb/)
 
 How to use
 ======================

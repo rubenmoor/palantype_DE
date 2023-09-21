@@ -1,1 +1,1 @@
-include plover_palantype_DE/dictionaries/*
+include plover_palantype_DE/dictionaries/*.json
