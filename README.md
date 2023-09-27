@@ -1,6 +1,8 @@
 Palantype DE
 =======================
 
+See [Changelog](CHANGELOG.md).
+
 This is a complete rework of the Possum Palantype steno system for efficient
 use with the German language.
 Its intended use is with a keyboard, not an actual Palantype machine.
@@ -48,8 +50,6 @@ After installing this plugin, you need to turn on Palantype in Plover:
 Run in browser
 ----------------------
 
-**Work in progress**
-
 Currently, only the tutorial is implemented at [palantype.com](https://palantype.com).
 Learning to type requires a lot of practice,
 therefore it is recommended starting there in any case.
@@ -71,8 +71,8 @@ There are built-in already some essential features for real-life steno typing:
 
 These features are implemented in the dictionary files
 
-* palantype-DE-extra.json, and
-* palantype-DE-numbers.json.
+* `palantype-DE-extra.json`, and
+* `palantype-DE-numbers.json`.
 
 
 Development
@@ -102,7 +102,7 @@ Test the plugin locally
 Publish new version
 
     $ nix-shell
-    
+
 Follow the instructions inside the nix shell.
 
 Acknowledgments
